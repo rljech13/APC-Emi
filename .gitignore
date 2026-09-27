@@ -3,8 +3,7 @@
 __pycache__/
 *.pyc
 
-# Third-party CombFold clone (own git history) and the earlier
-# human APC/C ColabFold runs. The manuscript analysis is in paper/.
+# Third-party CombFold clone and the earlier human APC/C ColabFold runs.
 CombFold/
 AFM2 Human APC:C mouse Emi2 png/
 PDB AFM 2RT9|4UI9/
@@ -15,29 +14,27 @@ Enviroment.yaml
 anapc1_analysis.json
 
 # Not part of the structural analysis published with the paper.
-paper/article/
-paper/Manuscript/
-paper/SNP_regulatory_analysis/
-paper/Interface_variability/superseded/
-paper/Fasta/AF3_inputs/superseded/
-paper/Fasta/Anapc4/
-paper/Fasta/Anapc5/
-paper/Fasta/Anapc7/
-paper/Fasta/8PKP/
-paper/Fasta/Aligment/
-paper/Figures/AF3_S1_v3_*.png
-paper/Figures/CX_2b_v3_key.png
-paper/Figures/CX_2b_v3_plddt.png
-paper/Figures/CX_2c_v3_*.png
-paper/Figures/Figure_2c_v3.*
-paper/Figures/Figure_3_v1.*
-paper/Figures/Figure_4_interface_map.*
-paper/Figures/Figure_S1.jpg
-paper/Figures/render_emi2_figures.py
-paper/Fasta/Models/Anapc4_Dval_model.cif
-paper/Fasta/Models/Anapc5_Dnai_model.cif
-paper/Fasta/Models/Anapc5_Dval_model.cif
-paper/Fasta/Models/Anapc7_Dnai_model.cif
-paper/Fasta/Models/Anapc7_Dval_model.cif
-paper/Fasta/Models/Dnai_APC_C_complex.pdb
-paper/Fasta/Models/Dval_APC_C_complex.cif
+paper/
+Interface_variability/superseded/
+Fasta/AF3_inputs/superseded/
+Fasta/Anapc4/
+Fasta/Anapc5/
+Fasta/Anapc7/
+Fasta/8PKP/
+Fasta/Aligment/
+Figures/AF3_S1_v3_*.png
+Figures/CX_2b_v3_key.png
+Figures/CX_2b_v3_plddt.png
+Figures/CX_2c_v3_*.png
+Figures/Figure_2c_v3.*
+Figures/Figure_3_v1.*
+Figures/Figure_4_interface_map.*
+Figures/Figure_S1.jpg
+Figures/render_emi2_figures.py
+Fasta/Models/Anapc4_Dval_model.cif
+Fasta/Models/Anapc5_Dnai_model.cif
+Fasta/Models/Anapc5_Dval_model.cif
+Fasta/Models/Anapc7_Dnai_model.cif
+Fasta/Models/Anapc7_Dval_model.cif
+Fasta/Models/Dnai_APC_C_complex.pdb
+Fasta/Models/Dval_APC_C_complex.cif

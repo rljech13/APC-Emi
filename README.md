@@ -29,7 +29,7 @@ Left on the Desktop copy because they are large and not required to re-run the d
 
 There is no script for the sequence inference in the methods (tBLASTn, STAR, bcftools, BWA). Those steps were done outside this tree; the resulting FASTA files are in `Fasta/`.
 
-The older CombFold / ColabFold exploration (human APC/C, PDB 2RT9 and 4UI9) stays in the parent folder of this repository. It is not the AlphaFold3 analysis in the manuscript.
+The older CombFold / ColabFold exploration (human APC/C, PDB 2RT9 and 4UI9) is not part of this repository.
 
 ## Check
 
