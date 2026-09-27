@@ -1,0 +1,175 @@
+set bgColor white
+windowsize 1500 1300
+open /Users/dmitrij/Desktop/Работа/APC:C-Emi/AF3_results_S1/aligned/dval_aligned.cif
+open /Users/dmitrij/Desktop/Работа/APC:C-Emi/AF3_results_S1/aligned/dnai_aligned.cif
+open /Users/dmitrij/Desktop/Работа/APC:C-Emi/AF3_results_S1/aligned/5g04_trim.cif
+
+color name cval    rgb(13%,30%,70%)
+color name cnai    rgb(88%,42%,8%)
+color name cR548   rgb(10%,45%,85%)
+color name c549    rgb(85%,10%,45%)
+color name cL551   rgb(95%,70%,5%)
+color name chsl1   rgb(28%,28%,31%)
+color name cgroove rgb(72%,76%,83%)
+color name cgrv2   rgb(56%,64%,77%)
+color name cdbox   rgb(80%,10%,14%)
+color name clink   rgb(50%,58%,66%)
+color name czbr    rgb(14%,38%,74%)
+color name crl     rgb(95%,60%,8%)
+color name cnterm  rgb(78%,80%,82%)
+color name capc10  rgb(66%,80%,66%)
+
+hide atoms
+hide cartoons
+hide surfaces
+clip off
+setattr #1,2/A residues ss_type 0
+setattr #3/S residues ss_type 0
+set subdivision 8
+lighting soft
+lighting shadows false
+graphics silhouettes true width 1.6
+cartoon style protein modeHelix tube sides 24 arrows false
+cartoon style coil thickness 0.9
+
+# =========================================================
+# PANEL A : overall complex, Emi2 coloured by functional element
+# =========================================================
+hide #3 models
+show #1,2/A cartoons
+color #1,2/A cnterm
+color #1,2/A:18-72 clink
+color #1,2/A:73-114 czbr
+color #1,2/A:115-127 clink
+color #1,2/A:128-141 crl
+color #1,2/A:14-17 cdbox
+show #1,2/A:14-17 atoms
+style #1,2/A:14-17 stick
+size #1,2/A:14-17 stickRadius 0.32
+show #1,2/D,E atoms
+style #1,2/D,E sphere
+color #1,2/D,E rgb(40%,40%,52%)
+surface #1/B
+surface #1/C
+surface #2/B
+surface #2/C
+color #1,2/B cgroove
+color #1,2/C capc10
+transparency #1,2/B 15
+transparency #1,2/C 45
+
+hide #2 models
+view matrix camera 0.59751,-0.80038,0.04864,186.00241,0.78861,0.57557,-0.21635,92.97550,0.14517,0.16764,0.97510,532.08942
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_overview_Dval.png" width 2200 height 1900 supersample 4
+view matrix camera 0.59751,-0.25414,-0.76052,-89.11397,0.78861,0.35795,0.49996,336.52368,0.14517,-0.89849,0.41430,341.41613
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_overview_Dval_side.png" width 2200 height 1900 supersample 4
+hide #1 models
+show #2 models
+view matrix camera 0.59751,-0.80038,0.04864,186.00241,0.78861,0.57557,-0.21635,92.97550,0.14517,0.16764,0.97510,532.08942
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_overview_Dnai.png" width 2200 height 1900 supersample 4
+
+# =========================================================
+# PANEL B : D-box groove zoom, Dval vs Dnai
+# =========================================================
+hide #1,2 models
+hide surfaces
+hide atoms
+hide cartoons
+show #1,2 models
+cartoon style coil thickness 0.5
+surface #1/B
+surface #2/B
+color #1,2/B cgroove
+color #1/B:131,132,133,135,156,158,163,165,172,422,424,425 cgrv2
+color #2/B:131,132,133,135,156,158,163,165,172,422,424,425 cgrv2
+transparency #1,2/B 0
+show #1,2/A:11-21 cartoons
+color #1/A cval
+color #2/A cnai
+show #1,2/A:14,15,16,17 atoms
+style #1,2/A:14,15,16,17 stick
+size #1,2/A:14,15,16,17 stickRadius 0.19
+color #1,2/A:14 cR548
+color #1,2/A:15 c549
+color #1,2/A:17 cL551
+color #1,2/A byhetero
+label #1/A:14 residues text "R548" height 2.3 color cR548 offset 1.6,-3.0,5
+label #1/A:15 residues text "F549" height 2.3 color c549 offset -7.5,0.6,5
+label #1/A:17 residues text "L551" height 2.3 color rgb(65%,47%,0%) offset -0.5,2.6,5
+label #2/A:14 residues text "R548" height 2.3 color cR548 offset 1.6,-3.0,5
+label #2/A:15 residues text "I549" height 2.3 color c549 offset -7.5,0.6,5
+label #2/A:17 residues text "L551" height 2.3 color rgb(65%,47%,0%) offset -0.5,2.6,5
+
+hide #2 models
+view matrix camera 0.59751,-0.80038,0.04864,173.35493,0.78861,0.57557,-0.21635,149.22770,0.14517,0.16764,0.97510,278.56283
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_dbox_zoom_Dval.png" width 2200 height 1900 supersample 4
+view matrix camera 0.59751,-0.71748,-0.35807,140.81820,0.78861,0.60664,0.10042,174.56948,0.14517,-0.34237,0.92828,274.81713
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_dbox_zoom_Dval_tilt.png" width 2200 height 1900 supersample 4
+hide #1 models
+show #2 models
+view matrix camera 0.59751,-0.80038,0.04864,173.35493,0.78861,0.57557,-0.21635,149.22770,0.14517,0.16764,0.97510,278.56283
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_dbox_zoom_Dnai.png" width 2200 height 1900 supersample 4
+view matrix camera 0.59751,-0.71748,-0.35807,140.81820,0.78861,0.60664,0.10042,174.56948,0.14517,-0.34237,0.92828,274.81713
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_dbox_zoom_Dnai_tilt.png" width 2200 height 1900 supersample 4
+
+# =========================================================
+# PANEL C : validation against 5G04 Hsl1 D-box
+# =========================================================
+~label
+hide #1,2 models
+hide surfaces
+hide atoms
+hide cartoons
+show #1,2,3 models
+hide #3 cartoons
+hide #3 atoms
+surface #1/B
+color #1/B cgroove
+color #1/B:131,132,133,135,156,158,163,165,172,422,424,425 cgrv2
+transparency #1/B 70
+show #1/A:11-21 cartoons
+show #2/A:11-21 cartoons
+color #1/A cval
+color #2/A cnai
+show #1,2/A:14,15,16,17 atoms
+style #1,2/A:14,15,16,17 stick
+size #1,2/A:14,15,16,17 stickRadius 0.18
+show #3/S:826-834 cartoons
+show #3/S:828,829,830,831 atoms
+style #3/S:828,829,830,831 stick
+size #3/S:828,829,830,831 stickRadius 0.18
+color #3/S chsl1
+color #1,2/A byhetero
+color #3/S byhetero
+label #1/A:14 residues text "Emi2 R548" height 2.1 color cval offset 1.8,-3.4,5
+label #1/A:17 residues text "Emi2 L551" height 2.1 color cval offset -1.0,3.0,5
+label #3/S:828 residues text "Hsl1 R828" height 2.1 color chsl1 offset 1.8,-6.2,5
+label #3/S:831 residues text "Hsl1 L831" height 2.1 color chsl1 offset -1.0,5.4,5
+view matrix camera 0.59751,-0.80038,0.04864,173.35493,0.78861,0.57557,-0.21635,149.22770,0.14517,0.16764,0.97510,278.56283
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_dbox_vs_5G04_Hsl1.png" width 2200 height 1900 supersample 4
+view matrix camera 0.59751,-0.71748,-0.35807,140.81820,0.78861,0.60664,0.10042,174.56948,0.14517,-0.34237,0.92828,274.81713
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_dbox_vs_5G04_Hsl1_tilt.png" width 2200 height 1900 supersample 4
+
+# =========================================================
+# PANEL D : Apc10 is NOT at its co-receptor position
+# =========================================================
+~label
+hide #1,2,3 models
+hide surfaces
+hide atoms
+hide cartoons
+show #1,3 models
+cartoon style coil thickness 0.9
+show #1/A,B,C cartoons
+color #1/B cgroove
+color #1/C rgb(85%,25%,25%)
+color #1/A cval
+color #1/A:14-17 cdbox
+show #3/L,R cartoons
+color #3/R rgb(60%,66%,74%)
+color #3/L rgb(20%,60%,25%)
+show #3/S:826-834 cartoons
+color #3/S chsl1
+view matrix camera 0.59751,-0.25414,-0.76052,-89.11397,0.78861,0.35795,0.49996,336.52368,0.14517,-0.89849,0.41430,341.41613
+save "/Users/dmitrij/Desktop/Работа/APC:C-Emi/Figures/AF3_S1_Apc10_misplacement.png" width 2200 height 1900 supersample 4
+exit

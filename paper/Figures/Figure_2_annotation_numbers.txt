@@ -1,0 +1,39 @@
+Figure 2 — numbers to add manually on panel 2a (phylogeny motif)
+======================================================================
+
+Four-letter motif under species names = Emi2 residues 423–426
+  423   424   425   426
+  R     E    L/F    F
+
+Position numbering (add small digits under each letter):
+  pos1 = 423
+  pos2 = 424
+  pos3 = 425  ← ONLY substitution inside APC/C interface (L in Dval, F in Dnai)
+  pos4 = 426
+
+Suggested bracket above motif:
+  [423 – 426]   APC/C docking motif (D-box)
+
+Important sequence correction for D. raddei nairensis:
+  our data = R-E-F-F (not R-E-L-F) at 423–426
+
+Hybrid parthenogens — genotype at 425:
+  D. armeniaca (Dval × Dnai): 425 heterozygous L/F
+  D. unisexualis (Dval × Drai): 425 heterozygous L/F
+
+Panel 2b linear map (already drawn in Figure_2b_annotated.png)
+================================================================
+Domains (Ohe 2010, Emi2 675 aa numbering):
+  D-box (APC/C docking)     408 – 458
+  ZBR                       588 – 636
+  RL-tail                   637 – 675   (critical KRL at 673–675)
+
+All Dval/Dnai substitutions (black dots):
+  76, 92, 102, 171, 219, 391, 395, 425, 549, 590
+
+Only aa425 lies in the APC/C interface (408–458).
+
+Panel 2c
+========
+Figure_2c_Emi2_AF3_domains.png — AlphaFold3, 600 dpi
+Optional zoom: Figure_2c_Emi2_Dbox_zoom.png

@@ -1,0 +1,314 @@
+{
+  "landmarks": {
+    "DSGx3S degron pSer-1 (Plk1)": 41,
+    "DSGx3S degron pSer-2 (Plk1)": 46,
+    "Plk1-PBD docking pThr-1": 182,
+    "Plk1-PBD Tyr-pocket anchor Phe": 199,
+    "Plk1-PBD docking pThr-2": 206,
+    "Plk1-PBD acidic-patch contact D": 187,
+    "Plk1-PBD acidic-patch contact V": 189,
+    "Xenopus Thr170 (Plk1-PBD site)": 182,
+    "Xenopus Thr195 (CaMKII / Plk1-PBD site)": 206,
+    "p90rsk Ser335": 359,
+    "p90rsk Thr336": 360,
+    "p90rsk Ser342": 366,
+    "p90rsk Ser344": 368,
+    "Cdk1 Thr545": 564,
+    "Cdk1 Thr551": 574,
+    "D-box Arg": 548,
+    "D-box Leu": 551,
+    "ZBR essential Cys583": 607,
+    "RL tail start": 653,
+    "RL tail end (Leu)": 675
+  },
+  "positions": {
+    "76": {
+      "dval": "Q",
+      "dnai": "H",
+      "squamate": {
+        "H": 41,
+        "D": 1,
+        "Y": 2
+      },
+      "outgroup": {
+        "S": 1,
+        "-": 1,
+        "H": 2,
+        "R": 1,
+        "E": 1,
+        "Y": 1,
+        "G": 1
+      },
+      "outgroup_detail": {
+        "Alli.mis": "H",
+        "Chel.myd": "Y",
+        "Dani.rer": "-",
+        "Gall.gal": "H",
+        "Homo.sap": "G",
+        "Mus.mus": "S",
+        "Ratt.nor": "R",
+        "Xeno.lae": "E"
+      },
+      "modal": "H",
+      "modal_frac": 0.827,
+      "n": 52
+    },
+    "92": {
+      "dval": "V",
+      "dnai": "I",
+      "squamate": {
+        "A": 15,
+        "T": 8,
+        "I": 19,
+        "N": 1,
+        "S": 1
+      },
+      "outgroup": {
+        "K": 3,
+        "S": 2,
+        "I": 2,
+        "T": 1
+      },
+      "outgroup_detail": {
+        "Alli.mis": "T",
+        "Chel.myd": "I",
+        "Dani.rer": "S",
+        "Gall.gal": "I",
+        "Homo.sap": "K",
+        "Mus.mus": "K",
+        "Ratt.nor": "K",
+        "Xeno.lae": "S"
+      },
+      "modal": "I",
+      "modal_frac": 0.404,
+      "n": 52
+    },
+    "102": {
+      "dval": "A",
+      "dnai": "T",
+      "squamate": {
+        "I": 15,
+        "L": 6,
+        "V": 5,
+        "T": 14,
+        "G": 1,
+        "A": 1,
+        "P": 2
+      },
+      "outgroup": {
+        "K": 3,
+        "-": 1,
+        "E": 1,
+        "L": 1,
+        "Q": 1,
+        "V": 1
+      },
+      "outgroup_detail": {
+        "Alli.mis": "L",
+        "Chel.myd": "V",
+        "Dani.rer": "-",
+        "Gall.gal": "K",
+        "Homo.sap": "K",
+        "Mus.mus": "K",
+        "Ratt.nor": "E",
+        "Xeno.lae": "Q"
+      },
+      "modal": "I",
+      "modal_frac": 0.288,
+      "n": 52
+    },
+    "171": {
+      "dval": "K",
+      "dnai": "R",
+      "squamate": {
+        "K": 15,
+        "R": 29
+      },
+      "outgroup": {
+        "K": 3,
+        "D": 1,
+        "R": 4
+      },
+      "outgroup_detail": {
+        "Alli.mis": "R",
+        "Chel.myd": "R",
+        "Dani.rer": "D",
+        "Gall.gal": "K",
+        "Homo.sap": "R",
+        "Mus.mus": "K",
+        "Ratt.nor": "K",
+        "Xeno.lae": "R"
+      },
+      "modal": "R",
+      "modal_frac": 0.635,
+      "n": 52
+    },
+    "219": {
+      "dval": "E",
+      "dnai": "D",
+      "squamate": {
+        "E": 43,
+        "D": 1
+      },
+      "outgroup": {
+        "E": 8
+      },
+      "outgroup_detail": {
+        "Alli.mis": "E",
+        "Chel.myd": "E",
+        "Dani.rer": "E",
+        "Gall.gal": "E",
+        "Homo.sap": "E",
+        "Mus.mus": "E",
+        "Ratt.nor": "E",
+        "Xeno.lae": "E"
+      },
+      "modal": "E",
+      "modal_frac": 0.981,
+      "n": 52
+    },
+    "391": {
+      "dval": "I",
+      "dnai": "V",
+      "squamate": {
+        "I": 38,
+        "S": 2,
+        "-": 1,
+        "L": 1,
+        "T": 1,
+        "F": 1
+      },
+      "outgroup": {
+        "L": 2,
+        "V": 4,
+        "A": 1,
+        "I": 1
+      },
+      "outgroup_detail": {
+        "Alli.mis": "V",
+        "Chel.myd": "A",
+        "Dani.rer": "V",
+        "Gall.gal": "V",
+        "Homo.sap": "I",
+        "Mus.mus": "L",
+        "Ratt.nor": "L",
+        "Xeno.lae": "V"
+      },
+      "modal": "I",
+      "modal_frac": 0.75,
+      "n": 52
+    },
+    "395": {
+      "dval": "D",
+      "dnai": "N",
+      "squamate": {
+        "N": 28,
+        "S": 12,
+        "H": 1,
+        "D": 2,
+        "R": 1
+      },
+      "outgroup": {
+        "Q": 3,
+        "G": 1,
+        "H": 1,
+        "S": 2,
+        "N": 1
+      },
+      "outgroup_detail": {
+        "Alli.mis": "S",
+        "Chel.myd": "S",
+        "Dani.rer": "G",
+        "Gall.gal": "H",
+        "Homo.sap": "Q",
+        "Mus.mus": "Q",
+        "Ratt.nor": "Q",
+        "Xeno.lae": "N"
+      },
+      "modal": "N",
+      "modal_frac": 0.558,
+      "n": 52
+    },
+    "425": {
+      "dval": "L",
+      "dnai": "F",
+      "squamate": {
+        "I": 14,
+        "L": 24,
+        "V": 6
+      },
+      "outgroup": {
+        "L": 3,
+        "I": 4,
+        "M": 1
+      },
+      "outgroup_detail": {
+        "Alli.mis": "I",
+        "Chel.myd": "I",
+        "Dani.rer": "I",
+        "Gall.gal": "I",
+        "Homo.sap": "L",
+        "Mus.mus": "L",
+        "Ratt.nor": "L",
+        "Xeno.lae": "M"
+      },
+      "modal": "L",
+      "modal_frac": 0.519,
+      "n": 52
+    },
+    "549": {
+      "dval": "F",
+      "dnai": "I",
+      "squamate": {
+        "F": 40,
+        "L": 4
+      },
+      "outgroup": {
+        "L": 2,
+        "S": 6
+      },
+      "outgroup_detail": {
+        "Alli.mis": "S",
+        "Chel.myd": "S",
+        "Dani.rer": "S",
+        "Gall.gal": "S",
+        "Homo.sap": "S",
+        "Mus.mus": "L",
+        "Ratt.nor": "L",
+        "Xeno.lae": "S"
+      },
+      "modal": "F",
+      "modal_frac": 0.769,
+      "n": 52
+    },
+    "590": {
+      "dval": "V",
+      "dnai": "M",
+      "squamate": {
+        "A": 27,
+        "K": 1,
+        "V": 13,
+        "T": 1,
+        "M": 1,
+        "S": 1
+      },
+      "outgroup": {
+        "Q": 3,
+        "E": 5
+      },
+      "outgroup_detail": {
+        "Alli.mis": "E",
+        "Chel.myd": "E",
+        "Dani.rer": "Q",
+        "Gall.gal": "E",
+        "Homo.sap": "E",
+        "Mus.mus": "Q",
+        "Ratt.nor": "Q",
+        "Xeno.lae": "E"
+      },
+      "modal": "A",
+      "modal_frac": 0.519,
+      "n": 52
+    }
+  }
+}

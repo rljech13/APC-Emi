@@ -1,0 +1,15 @@
+.DS_Store
+.idea/
+__pycache__/
+*.pyc
+
+# Third-party CombFold clone (own git history) and the earlier
+# human APC/C ColabFold runs. The manuscript analysis is in paper/.
+CombFold/
+AFM2 Human APC:C mouse Emi2 png/
+PDB AFM 2RT9|4UI9/
+Fastas/
+pdbs/
+prepared/
+Enviroment.yaml
+anapc1_analysis.json

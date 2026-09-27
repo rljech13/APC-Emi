@@ -1,0 +1,92 @@
+====================================================================================================
+LANDMARK PROJECTION ONTO DAREVSKIA (Dval) NUMBERING
+====================================================================================================
+source               pos  aa  ->  Dval pos Dval aa   label
+Xenopus_laevis        33   S  ->        41       S   DSGx3S degron pSer-1 (Plk1)
+Xenopus_laevis        38   S  ->        46       S   DSGx3S degron pSer-2 (Plk1)
+Mus_musculus         152   T  ->       182       T   Plk1-PBD docking pThr-1
+Mus_musculus         169   F  ->       199       F   Plk1-PBD Tyr-pocket anchor Phe
+Mus_musculus         176   T  ->       206       T   Plk1-PBD docking pThr-2
+Mus_musculus         157   D  ->       187       D   Plk1-PBD acidic-patch contact D
+Mus_musculus         158   V  ->       188       P   Plk1-PBD acidic-patch contact V   [not identical]
+Mus_musculus         159   V  ->       189       I   Plk1-PBD acidic-patch contact V   [not identical]
+Xenopus_laevis       170   T  ->       182       T   Xenopus Thr170 (Plk1-PBD site)
+Xenopus_laevis       195   T  ->       206       T   Xenopus Thr195 (CaMKII / Plk1-PBD site)
+Xenopus_laevis       335   S  ->       359       S   p90rsk Ser335
+Xenopus_laevis       336   T  ->       360       T   p90rsk Thr336
+Xenopus_laevis       342   S  ->       366       S   p90rsk Ser342
+Xenopus_laevis       344   S  ->       368       S   p90rsk Ser344
+Xenopus_laevis       545   T  ->       564       H   Cdk1 Thr545   [not identical]
+Xenopus_laevis       551   T  ->       574       T   Cdk1 Thr551
+Xenopus_laevis       529   R  ->       548       R   D-box Arg
+Xenopus_laevis       532   L  ->       551       L   D-box Leu
+Xenopus_laevis       583   C  ->       607       C   ZBR essential Cys583
+Xenopus_laevis       629   A  ->       653       A   RL tail start
+Xenopus_laevis       651   L  ->       675       L   RL tail end (Leu)
+
+====================================================================================================
+CROSS-VERTEBRATE RESIDUE DISTRIBUTION AT THE TEN POLYMORPHIC POSITIONS
+(n squamates = 44, n non-squamate outgroups = 8)
+====================================================================================================
+
+  Q76H   (Dval=Q, Dnai=H)
+    squamates (n=44): H:41, Y:2, D:1
+    outgroups (n=8): H:2, S:1, Y:1, G:1, E:1, -:1, R:1
+    per-outgroup: Alli.mis=H, Chel.myd=Y, Dani.rer=-, Gall.gal=H, Homo.sap=G, Mus.mus=S, Ratt.nor=R, Xeno.lae=E
+    modal residue over all 52: H (83%)
+
+  V92I   (Dval=V, Dnai=I)
+    squamates (n=44): I:19, A:15, T:8, S:1, N:1
+    outgroups (n=8): K:3, I:2, S:2, T:1
+    per-outgroup: Alli.mis=T, Chel.myd=I, Dani.rer=S, Gall.gal=I, Homo.sap=K, Mus.mus=K, Ratt.nor=K, Xeno.lae=S
+    modal residue over all 52: I (40%)
+
+  A102T   (Dval=A, Dnai=T)
+    squamates (n=44): I:15, T:14, L:6, V:5, P:2, G:1, A:1
+    outgroups (n=8): K:3, V:1, Q:1, L:1, -:1, E:1
+    per-outgroup: Alli.mis=L, Chel.myd=V, Dani.rer=-, Gall.gal=K, Homo.sap=K, Mus.mus=K, Ratt.nor=E, Xeno.lae=Q
+    modal residue over all 52: I (29%)
+
+  K171R   (Dval=K, Dnai=R)
+    squamates (n=44): R:29, K:15
+    outgroups (n=8): R:4, K:3, D:1
+    per-outgroup: Alli.mis=R, Chel.myd=R, Dani.rer=D, Gall.gal=K, Homo.sap=R, Mus.mus=K, Ratt.nor=K, Xeno.lae=R
+    modal residue over all 52: R (64%)
+
+  E219D   (Dval=E, Dnai=D)
+    squamates (n=44): E:43, D:1
+    outgroups (n=8): E:8
+    per-outgroup: Alli.mis=E, Chel.myd=E, Dani.rer=E, Gall.gal=E, Homo.sap=E, Mus.mus=E, Ratt.nor=E, Xeno.lae=E
+    modal residue over all 52: E (98%)
+
+  I391V   (Dval=I, Dnai=V)
+    squamates (n=44): I:38, S:2, -:1, F:1, T:1, L:1
+    outgroups (n=8): V:4, L:2, A:1, I:1
+    per-outgroup: Alli.mis=V, Chel.myd=A, Dani.rer=V, Gall.gal=V, Homo.sap=I, Mus.mus=L, Ratt.nor=L, Xeno.lae=V
+    modal residue over all 52: I (75%)
+
+  D395N   (Dval=D, Dnai=N)
+    squamates (n=44): N:28, S:12, D:2, R:1, H:1
+    outgroups (n=8): Q:3, S:2, N:1, H:1, G:1
+    per-outgroup: Alli.mis=S, Chel.myd=S, Dani.rer=G, Gall.gal=H, Homo.sap=Q, Mus.mus=Q, Ratt.nor=Q, Xeno.lae=N
+    modal residue over all 52: N (56%)
+
+  L425F   (Dval=L, Dnai=F)
+    squamates (n=44): L:24, I:14, V:6
+    outgroups (n=8): I:4, L:3, M:1
+    per-outgroup: Alli.mis=I, Chel.myd=I, Dani.rer=I, Gall.gal=I, Homo.sap=L, Mus.mus=L, Ratt.nor=L, Xeno.lae=M
+    modal residue over all 52: L (52%)
+
+  F549I   (Dval=F, Dnai=I)
+    squamates (n=44): F:40, L:4
+    outgroups (n=8): S:6, L:2
+    per-outgroup: Alli.mis=S, Chel.myd=S, Dani.rer=S, Gall.gal=S, Homo.sap=S, Mus.mus=L, Ratt.nor=L, Xeno.lae=S
+    modal residue over all 52: F (77%)
+
+  V590M   (Dval=V, Dnai=M)
+    squamates (n=44): A:27, V:13, S:1, T:1, M:1, K:1
+    outgroups (n=8): E:5, Q:3
+    per-outgroup: Alli.mis=E, Chel.myd=E, Dani.rer=Q, Gall.gal=E, Homo.sap=E, Mus.mus=Q, Ratt.nor=Q, Xeno.lae=E
+    modal residue over all 52: A (52%)
+
+wrote mapping_results.json

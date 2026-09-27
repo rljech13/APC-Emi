@@ -1,0 +1,21 @@
+subunit,status,position,dval,dnai,note
+Cdc20,substitution,291,V,I,len_dval=454 len_dnai=454
+Anapc10,identical,,,,len_dval=185 len_dnai=185
+Anapc11,identical,,,,len_dval=84 len_dnai=84
+Anapc2,substitution,632,V,A,aligned dnai@568 into dval@767 off=199
+Anapc2,substitution,654,P,L,aligned dnai@568 into dval@767 off=199
+Anapc5,substitution,728,Y,H,aligned dnai@722 into dval@743 off=21
+Anapc7,identical,,,,len_dval=565 len_dnai=565
+Anapc1,Dnai internal deletion vs Dval,1284-1330,(present),(absent),len_dval=1954 len_dnai=1902 gap_len=47 (Dval numbering)
+Anapc1,substitution,133,I,V,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,443,M,L,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,802,G,A,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,823,I,V,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1844,F,L,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1943,K,N,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1944,S,P,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1945,T,Q,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1946,G,A,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1948,V,M,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc1,substitution,1950,V,L,len_dval=1954 len_dnai=1902; no Emi2–Apc1 complex model
+Anapc4,Dval partial — no Dnai; no Emi2 complex model,,,,

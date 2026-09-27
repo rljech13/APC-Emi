@@ -1,0 +1,5 @@
+emi2,apc,seed,model,ranking,iptm_AB,n_contact_B,n_contact_C,cdc20_recv_overlap,cdc20_recv_n,sup_rmsd,dR548,dL551,dbox_bb_rmsd,apc10_disp
+dnai,dnai,1,0,0.64,0.6,15,16,8,9,0.59,2.9,0.9,0.5,80.0
+dnai,dval,1,0,0.64,0.6,15,13,8,9,0.6,2.9,1.0,0.5,60.0
+dval,dnai,1,0,0.63,0.59,14,20,8,9,0.58,2.8,0.9,0.6,84.0
+dval,dval,1,0,0.63,0.59,12,19,8,9,0.56,2.2,0.9,0.6,71.0
