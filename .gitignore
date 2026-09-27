@@ -39,3 +39,26 @@ Fasta/Models/Anapc7_Dnai_model.cif
 Fasta/Models/Anapc7_Dval_model.cif
 Fasta/Models/Dnai_APC_C_complex.pdb
 Fasta/Models/Dval_APC_C_complex.cif
+
+# Camera presets, the cropped allele-statistics panel, and models not used in the paper.
+AF3_results_S1/make_camera.py
+AF3_results_S1/make_zoom_cxc.py
+AF3_results_S1/summary_plot.py
+AF3_results_S1/noise_and_compare.py
+AF3_results_S1/final_comparison.py
+AF3_results_S1/prep_aligned.py
+AF3_results_S1/structure_analysis.py
+AF3_results_S1/aligned/
+AF3_results_S1/terms_of_use.md
+Interface_variability/fig4_emi2_heatmap.py
+Fasta/AF3_inputs/RUN_S2b_S3.md
+AF3_results_S3/REPORT_AF3_S2b_S3.md
+**/terms_of_use.md
+Fasta/Models/Anapc10_*.cif
+Fasta/Models/Anapc11_*.cif
+Fasta/Models/Anapc2_*.cif
+Fasta/Models/Emi2_*Ctail*.pdb
+Fasta/Models/Emi2_*aligned*.pdb
+Fasta/Models/Emi2_*full*.pdb
+Fasta/Models/Emi2_*fromFullAF3*.pdb
+Fasta/Models/Emi2_*_model.cif
