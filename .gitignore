@@ -2,6 +2,7 @@
 .idea/
 __pycache__/
 *.pyc
+*.cxc
 
 # Third-party CombFold clone and the earlier human APC/C ColabFold runs.
 CombFold/

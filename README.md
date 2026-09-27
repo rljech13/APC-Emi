@@ -40,4 +40,4 @@ Re-run on the copied models (25 Sep 2026):
 - Partner-side distances in Supplementary Fig. S2: Cdc20 V291I 36 Å, Anapc2 V632A 42 Å, Anapc2 P654L 59 Å.
 - Figure scripts write `Figure_2_model_and_map` and `Figure_S_subs_vs_interface`. `Figure_S1.png` is the cropped D-box figure.
 
-`py_compile` passed for all 24 scripts. ChimeraX session scripts (`*.cxc`) were not executed.
+`py_compile` passed for the analysis scripts. ChimeraX session files are not part of this repository; the published panels are the matplotlib figures.
