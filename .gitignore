@@ -13,3 +13,24 @@ pdbs/
 prepared/
 Enviroment.yaml
 anapc1_analysis.json
+
+# Not part of the structural analysis published with the paper.
+paper/article/
+paper/Manuscript/
+paper/SNP_regulatory_analysis/
+paper/Interface_variability/superseded/
+paper/Fasta/AF3_inputs/superseded/
+paper/Fasta/Anapc4/
+paper/Fasta/Anapc5/
+paper/Fasta/Anapc7/
+paper/Fasta/8PKP/
+paper/Fasta/Aligment/
+paper/Figures/AF3_S1_v3_*.png
+paper/Figures/CX_2b_v3_key.png
+paper/Figures/CX_2b_v3_plddt.png
+paper/Figures/CX_2c_v3_*.png
+paper/Figures/Figure_2c_v3.*
+paper/Figures/Figure_3_v1.*
+paper/Figures/Figure_4_interface_map.*
+paper/Figures/Figure_S1.jpg
+paper/Figures/render_emi2_figures.py
